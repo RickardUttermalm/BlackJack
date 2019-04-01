@@ -1,3 +1,7 @@
-/public/Bilder
+#dependencies
 
 /node_modules
+
+#misc
+
+/public/Bilder
