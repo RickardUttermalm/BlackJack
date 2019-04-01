@@ -1,0 +1,78 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ricks casino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="BlackJack.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="PlayerClass.js" defer></script>
+    <script src="DeckClass.js" defer></script>
+    <script src="Game.js" defer></script>
+</head>
+
+<body>
+    <div id="header" class="flex-container">
+        <div id="h1"></div>
+        <div id="h2">Rich casino</div>
+        <div id="h3">
+            <button id="logout">Log out</button>
+            <button id="addbalance">+100$</button>
+        </div>
+    </div>
+    <div id="space">
+
+    </div>
+    <div id="loginbox">
+        <div id="infoboxes">
+            <input type="text" name="username" id="usernametb" class="infoboxclass" placeholder="Username">
+            <input type="text" name="password" id="passwordtb" class="infoboxclass" placeholder="Password">
+        </div>
+        <div id="lognregbtns">
+            <button id="login">Log in</button>
+            <button id="registerbtn">Register</button>
+        </div>
+    </div>
+    <div id="dealerpoints">
+        <p id="dealerpointstxt"></p>
+    </div>
+    <div id="dealer" class="dealer-container">
+        <div id="dealercards">
+
+        </div>
+    </div>
+    <div id="playerpoints">
+        <p id="playerpointstxt"></p>
+    </div>
+    <div id="player" class="player-container">
+        <div id="playercards">
+
+        </div>
+    </div>
+    <div id="buttons">
+        <div id="betinfo">
+            <div id="bi1">
+                <p id="playerbalance">Balance: </p>
+                <p id="playerbalanceamount"></p>
+            </div>
+            <div id="bi2">
+                <p id="playerbet">Bet amount: </p>
+                <p id="betamount">50</p>
+                <button id="betmin" class="betincbtn">-</button><button id="betplus" class="betincbtn">+</button>
+            </div>
+        </div>
+        <button id="placebet" class="userbtns">Place bet</button>
+        <button id="hitme" class="userbtns">Hit me</button>
+        <button id="stand" class="userbtns">Stand</button>
+
+    </div>
+    <div id="endofroundmessage">
+
+    </div>
+    <button id=newgame>Ok</button>
+</body>
+
+</html>
